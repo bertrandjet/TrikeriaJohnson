@@ -1,0 +1,258 @@
+img {
+  max-width: 100%; 
+  height: auto !im
+}
+body {
+  background-color: #66648b;
+  margin: 0 auto;
+  padding: 0 auto;
+  border: 0 auto;
+  font-size: 100%;
+  font-family: baskerville;
+  vertical-align: baseline;
+  color: #edeffb;
+  
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1100px;
+  font-family: helvetica, sans-serif;
+}
+.content {
+  position: relative;
+  padding-top: 80px;
+}
+.content p {
+  margin-bottom: 10px;
+}
+#header {
+  z-index: 2;
+  position: fixed;
+  width: 100%;
+  height: 70px;
+  line-height: 60px;
+  background-color: #f7e95e;
+  font-color: ##dfdfe3;
+   
+}
+#header h1 {
+  top: 0px;
+  margin: 0px;
+ float: left;
+  font-size: 400%;
+  color: #4c4b55;
+  font-family: cotillion;
+}
+#nav {
+  position: absolute;
+  right: 0;
+  top: -15px;
+  height: 60px;
+}
+#nav ul li {
+  float: left;
+  list-style: none;
+}
+#nav ul li a {
+  display: block;
+  color: #4c4b55;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.periscope{
+  color:#4c4b55;
+  font-size: 17px;
+  
+}
+
+#adrianpic {
+  height: 60%;
+  width: 40%
+  
+}
+  
+#about{
+  background-color:  #66648B;
+  color: #edeffb;
+  
+  
+}
+#affirmations{
+  background-color: #91a8d0
+}
+#webdev{
+  background-color: #f7cac9;
+}
+#bookcover {
+  height: 80%;
+  width: 40%;
+margin-left: 40%;
+ }
+.sectionlead{
+  font-size: 300%;
+}
+.footer{
+width: 100%;
+  height: 60px;
+  line-height: 60px;
+  background: #dfdfe3;
+  color: #4c4b55;
+}
+.purchaselink{
+  color: #f7e95e;
+    }
+.purchaselink:hover{
+  color: #E6E6FA
+  
+}
+  #tripic {
+  height: 112%;
+  width: 60%;
+    margin-left: 35%;
+  margin-right: auto;
+    padding: 5%
+}
+#triaffirmationpic{
+  padding: 10%;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+.testimonial .media{
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.testimonial .media>.pull-left{
+  margin-right: 25px;
+}
+
+.testimonial .media>.pull-left img{
+  margin-top: 6px;
+}
+
+.testimonial .media .media-body blockquote{
+  padding-left: 25px;
+  padding-right: 30px;
+  position: relative;
+  border-left: 0;
+  margin-bottom: 0;
+}
+
+.testimonial .media .media-body blockquote:before{
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  content: '"';
+  font-size: 40px;
+  color: #ea2c00;
+  font-family: 'Noto Sans', sans-serif;
+  transform:rotate(180deg);
+  -ms-transform:rotate(180deg); /* IE 9 */
+  -webkit-transform: rotate(180deg); /* Opera, Chrome, and Safari */
+  line-height: 0;
+}
+
+.testimonial .media .media-body blockquote:after{
+  position: absolute;
+  right: 30px;
+  bottom: 14px;
+  content: '"';
+  font-size: 40px;
+  color: #ea2c00;
+  font-family: 'Noto Sans', sans-serif;
+  line-height: 0;
+}
+blockquote{
+  padding: 5%;
+  border: solid;
+  margin-left: 10%;}
+}
+footer .row {
+  display: flex;
+  align-items: center
+}
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+#landingpage{
+  background-color: #66648b;
+  padding: 5%;
+  color: #dfdfe3;
+ 
+}
+#landingpage h1{
+  text-align: center;
+}
+#landingpage h1 h2{
+  border: solid;
+}
+.you{
+  color: #e3497e;
+}
+p{
+  font-size: 175%
+}
+#words{ 
+padding-left: 8.75%;
+}
+#walkpic{
+  padding-right: 8.75%;
+}
+#triangle1{
+  dispaly: block;
+    margin-left: 50%;
+  margin-right: auto;
+  }
+#TriumphantRisings h1{
+  color: #dfdfe3;
+  text-align: center;
+  padding-bottom: 5%
+}
+#TriumphantRisings{
+  background-color: #66648b;
+  padding: 5%;
+  color: #dfdfe3;
+}
+.quotes{
+  font-family: cotillion;
+  font-size: 400%
+}
+#abouttext{
+  margin-top: 5%;
+  font-size: 300%;
+}
+.link{
+  color:  #f7e95e;
+}
+
+#icon {
+  width: 5%;
+  height:  5%;
+}
+#listtext{
+  font-size: 250%;
+  padding: 6%;
+}
+#buybutton {
+    background-color: #e3497e;
+    border: none;
+    color: #edeffb;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 50%;
+    margin-top: 5%;
+}

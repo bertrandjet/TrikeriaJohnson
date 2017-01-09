@@ -45,6 +45,10 @@ body {
   color: #4c4b55;
   font-family: cotillion;
 }
+header h1 a{
+  text-decoration: none;
+  color: #4c4b55
+}
 #nav {
   position: absolute;
   right: 0;

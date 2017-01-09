@@ -74,23 +74,26 @@ header h1 a{
   right: 0;
   top: -15px;
   height: 60px;
+  background-color: f7e95e;
 }
 #nav ul li {
   float: left;
   list-style: none;
+  background-color: f7e95e;
 }
 #nav ul li a {
   display: block;
   color: #4c4b55;
   text-decoration: none;
   padding: 0 10px;
+  background-color: f7e95e;
 }
 .periscope{
   color:#4c4b55;
   font-size: 17px;
+  background-color: f7e95e;
   
 }
-
 #adrianpic {
   height: 60%;
   width: 40%

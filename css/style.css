@@ -261,15 +261,6 @@ padding-left: 8.75%;
     font-size: 16px;
     margin-left: 50%;
     margin-top: 5%;
-}
-a.menu-link,
-a.menu-anchor {
-   display: none;
-}
-a.menu-link,
-a.menu-anchor {
-   display: block;
-}
 
 a.menu-anchor {
    height:0;

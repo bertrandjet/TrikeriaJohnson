@@ -45,8 +45,7 @@ body {
   color: #4c4b55;
   font-family: cotillion;
 }
-.purchaselink{
- color: #4c4b55;   
+
 }
 #header {
   z-index: 2;
@@ -126,7 +125,7 @@ width: 100%;
   color: #4c4b55;
 }
 .purchaselink{
-  color: #f7e95e;
+color: #4c4b55;
     }
 .purchaselink:hover{
   color: #E6E6FA

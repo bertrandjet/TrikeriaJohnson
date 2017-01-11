@@ -45,18 +45,6 @@ body {
   color: #4c4b55;
   font-family: cotillion;
 }
-
-}
-#header {
-  z-index: 2;
-  position: fixed;
-  width: 100%;
-  height: 70px;
-  line-height: 60px;
-  background-color: #f7e95e;
-  font-color: ##dfdfe3;
-   
-}
 #header h1 {
   top: 0px;
   margin: 0px;
@@ -74,13 +62,17 @@ header h1 a{
   right: 0;
   top: -15px;
   height: 60px;
-  background-color: f7e95e;
+  background-color: #f7e95e;
 }
 #nav ul li {
   float: left;
   list-style: none;
-  background-color: f7e95e;
+  background-color: #f7e95e;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.3s;
 }
+ul.topnav li.icon {display: none;}
 #nav ul li a {
   display: block;
   color: #4c4b55;
@@ -88,6 +80,31 @@ header h1 a{
   padding: 0 10px;
   background-color: f7e95e;
 }
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  }
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
 .periscope{
   color:#4c4b55;
   font-size: 17px;

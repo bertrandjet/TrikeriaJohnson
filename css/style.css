@@ -95,10 +95,21 @@ ul.topnav li.icon {display: none;}
     top: 0;
   }
   }
+  ul.topnav li {float: left;}
+  ul.topnav li a {
+    display: inline-block;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
   ul.topnav.responsive li {
     float: none;
     display: inline;
   }
+  ul.topnav li a:hover {background-color: #e3497e;}
+  ul.topnav li.icon {display: none;}
   ul.topnav.responsive li a {
     display: block;
     text-align: left;

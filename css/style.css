@@ -384,7 +384,7 @@ ul.topnav li.icon {display: none;}
     position: aboslute;
     paddint-top: 10px;
   }
- @media only screen and (max-width: 1026px) {
+ @media only screen and (max-width: 720px) {
     .smallscreen {
         display: none;
     }

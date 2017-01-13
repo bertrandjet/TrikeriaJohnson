@@ -270,8 +270,7 @@ padding-left: 8.75%;
 }
 #triangle1{
   dispaly: block;
-    margin-left: 50%;
-  margin-right: auto;
+    margin: 0 auto
     padding-top: 10%;
     color: #f7e95e;
   }

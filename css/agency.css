@@ -566,6 +566,8 @@ section#contact .section-heading {
 }
 section#contact .form-group {
   margin-bottom: 25px;
+  opacity: 0.5;
+    filter: alpha(opacity=50);
 }
 section#contact .form-group input,
 section#contact .form-group textarea {

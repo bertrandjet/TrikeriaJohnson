@@ -230,9 +230,16 @@
                     <h3 class="section-subheading text-muted" style="color:#26272d;">Contact me, recieve regular updates, and stay in the loop! </h3>
                 </div>
             </div>
-            <div class="row">
+    <div class="row">
                 <div class="col-lg-12">
-                   <br/><br/> <form name="sentMessage" id="contactForm" novalidate >
+               <div id="contactForm"> <form method="POST" action="http://formspree.io/info@trikeriajohnson.com">
+  <input type="text" name="name" placeholder="Name">
+  <input type="email" name="email" placeholder="Your email">
+  <input type="tel" name="phone" placeholder="Phone Number">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+</form></div>
+                   <!--<br/><br/> <form name="sentMessage" id="contactForm" novalidate >
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -257,7 +264,7 @@
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Send Message</button>-->
                             </div>
                         </div>
                     </form>
